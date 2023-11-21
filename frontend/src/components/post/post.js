@@ -22,10 +22,17 @@ export default function Post() {
         <p1>{index.comment}</p1>
 
         <div className='post_2'>
-            <p>{index.by}</p>
+            <p2>{index.by}</p2>
+            &nbsp;
+            &nbsp;
             <p>{index.date}</p>
+            &nbsp;
+            &nbsp;
             <p>{index.time}</p>
+            &nbsp;
             <p>{index.read}</p>
+            &nbsp;
+            &nbsp;
             <p>{index.view}</p>
  
         </div>

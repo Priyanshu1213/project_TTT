@@ -12,6 +12,29 @@ nav {
   
   li {
     margin: 0 10px;
+    width: 60px;
+    height: 26px;
+    text-align: center;
+    background-color: rgb(255, 208, 0);
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  li1{
+    
+    cursor: pointer;
+    display: flex;
+    justify-content: space-around;
+    
+  }
+  li2{
+    background-color: aliceblue;
+    color: #000000;
+    font-size: large;
+    border-radius: 50%;
+    text-align: center;
+    width: 30px;
+    height: 26px;
+    
   }
   
   a {

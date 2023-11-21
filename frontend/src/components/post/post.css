@@ -2,9 +2,10 @@
 .post {
     border: 1px solid #ccc;
     padding: 10px;
-    width: 40%;
+    width: 80%;
     align-items: center;
     margin-left: 50px;
+    
     
 }
 
@@ -50,10 +51,45 @@
     width: 90%;
     display: flex;
     justify-content: space-around;
+    border-radius: 50px;
+    
 }
 
 .post_2 p {
     margin: 5px 0;
     color: #333;
     font-style: italic;
+}
+.post_2 p2 {
+    margin: 5px 0;
+    color: #333;
+    font-weight: bold;
+    font-style: italic;
+    cursor: pointer;
+}
+
+
+@media (max-width: 525px) {
+
+    .post {
+        border: 1px solid #ccc;
+        padding: 10px;
+        width: 80%;
+        align-items: center;
+        justify-content: space-around;
+        margin-left: 25px;
+        
+    }
+    .post_2 p {
+        margin: 5px 0;
+        color: #333;
+        font-style: italic;
+        font-size: small;
+    }
+    .post_2 p2 {
+        margin: 5px 0;
+        color: #333;
+        font-weight: bold;
+        font-size: small;
+    }
 }

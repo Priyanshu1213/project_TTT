@@ -13,10 +13,10 @@ export default function Profile() {
             </div>
 
             <div className='profile_details'>
-                <h1>Neha Bhagat Yadav</h1>
+                <h1>Priyanshu Kumar Yadav</h1>
                 <div className='follow'>
                     <div className='followers'>
-                        <div className='count'>123</div>
+                        <div className='count'>124</div>
                         <h2>Followers</h2>
                     </div>
                     <div className='followers'>
@@ -35,8 +35,8 @@ export default function Profile() {
             <div className='like'>
                 <h5><img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlAzceR_3EeTW2Fvp1DMHMe5Yv0p79EPDIyQ&usqp=CAU'/>Like</h5>
                 <h5> <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoa9JXbkv8AOdpRYa5qG-nHIfgQ6YLiNZusQ&usqp=CAU'/>Comment</h5>
-                <h5>View</h5>
-                <h5>like</h5>
+                <h5><img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTryGrRa8knqwHPWfrD5y1xmrSlxnkElaDEjw&usqp=CAU'/>View</h5>
+                
             </div>
         </div>
 
